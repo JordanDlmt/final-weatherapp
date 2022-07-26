@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,35 +14,46 @@
       src="https://kit.fontawesome.com/eda9125970.js"
       crossorigin="anonymous"
     ></script>
-
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather</title>
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>Seattle, WA, USA</h1>
-        <ul>
-          <li id="currentDay">Tuesday 2:30</li>
-          <li id="currentWeather">Sunny</li>
-        </ul>
-        <div class="row">
-          <div class="col-6">
-            <i class="fa-solid fa-ice-cream"></i> 83°F | 30°C
-          </div>
-          <div class="col-6">
+      <div class="weather-wrapper">
+        <div class="weather-app">
+          <div class="overview">
+            <h1>Seattle, WA, USA</h1>
             <ul>
-              <li id="currentPrecipitation">Precipitation: 1%</li>
-              <li id="currentHumidity">Humidity: 47%</li>
-              <li id="currentWind">Wind: 9 mph</li>
+              <li id="currentDay">Tuesday 2:30</li>
+              <li id="currentWeather">Sunny</li>
             </ul>
           </div>
+          <div class="row">
+            <div class="col-6">
+              <i class="fa-solid fa-ice-cream" id="icecream-icon"></i>
+              <span id="currentTemp"
+                >83 <span class="units">°F |<a href="#"> C°</a></span></span
+              >
+            </div>
+            <div class="col-6">
+              <ul>
+                <li id="currentPrecipitation">Precipitation: 1%</li>
+                <li id="currentHumidity">Humidity: 47%</li>
+                <li id="currentWind">Wind: 9 mph</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-      <div id="credit">
-        <a href="https://github.com/JordanDlmt/final-weatherapp" target="_blank"
-          >Open-source code</a
-        >
-        by Darlene Jordan
+        <div id="credit">
+          <small>
+            <a
+              href="https://github.com/JordanDlmt/final-weatherapp"
+              target="_blank"
+              >Open-source code</a
+            >
+            by Darlene Jordan</small
+          >
+        </div>
       </div>
     </div>
     <script src="src/app.js"></script>
