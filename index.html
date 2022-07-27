@@ -14,6 +14,7 @@
       src="https://kit.fontawesome.com/eda9125970.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather</title>
   </head>
@@ -22,24 +23,22 @@
       <div class="weather-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>Seattle, WA, USA</h1>
+            <h1 id="city"></h1>
             <ul>
-              <li id="currentDay">Tuesday 2:30</li>
-              <li id="currentWeather">Sunny</li>
+              <li>Last updated: <span id="currentDate"></span></li>
+              <li id="currentCondition"></li>
             </ul>
           </div>
           <div class="row">
             <div class="col-6">
               <i class="fa-solid fa-ice-cream" id="icecream-icon"></i>
-              <span id="currentTemp"
-                >83 <span class="units">°F |<a href="#"> C°</a></span></span
-              >
+              <span id="currentTemp">83</span>
+              <span class="units">°F |<a href="#"> C°</a></span>
             </div>
             <div class="col-6">
               <ul>
-                <li id="currentPrecipitation">Precipitation: 1%</li>
-                <li id="currentHumidity">Humidity: 47%</li>
-                <li id="currentWind">Wind: 9 mph</li>
+                <li>Humidity: <span id="currentHumidity"></span>%</li>
+                <li>Wind: <span id="currentWind"></span>mph</li>
               </ul>
             </div>
           </div>
