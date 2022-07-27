@@ -45,17 +45,19 @@ a {
   font-size: 16px;
   font-weight: 100;
   position: relative;
-  top: -13px;
+  top: -17px;
   right: 5px;
 }
-#icecream-icon {
+#icon {
   color: #f0d9da;
-  font-size: 50px;
+  font-size: 45px;
   margin-right: 5px;
-  width: 40px;
+  width: 70px;
 }
 #currentTemp {
   color: #c8d9eb;
-  font-size: 35px;
+  font-size: 60px;
   font-weight: 700;
+  position: relative;
+  top: 12px;
 }
