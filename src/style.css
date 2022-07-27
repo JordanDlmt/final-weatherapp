@@ -45,19 +45,20 @@ a {
   font-size: 16px;
   font-weight: 100;
   position: relative;
-  top: -17px;
-  right: 5px;
+  top: -48px;
 }
 #icon {
   color: #f0d9da;
   font-size: 45px;
   margin-right: 5px;
   width: 70px;
+  position: relative;
+  top: -30px;
 }
 #currentTemp {
   color: #c8d9eb;
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 600;
   position: relative;
-  top: 12px;
+  top: -18px;
 }
