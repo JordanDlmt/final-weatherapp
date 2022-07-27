@@ -28,20 +28,24 @@ a {
   text-decoration: none;
   color: #7d8995;
 }
+a:hover {
+  color: #dac79d;
+}
 .weather-wrapper {
   max-width: 600px;
   margin: 30px auto;
 }
 .weather-app {
+  background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
   padding: 20px;
-  border: 3px solid #878787;
+  border: 2px solid #b7b3b3;
   border-radius: 10px;
 }
 .overview {
   margin-bottom: 20px;
 }
 .units {
-  color: #98a6b5;
+  color: #808072;
   font-size: 16px;
   font-weight: 100;
   position: relative;
@@ -56,9 +60,17 @@ a {
   top: -30px;
 }
 #currentTemp {
-  color: #c8d9eb;
+  color: #516c8d;
   font-size: 60px;
   font-weight: 600;
   position: relative;
   top: -18px;
+}
+.active {
+  color: #516c8d;
+  cursor: default;
+}
+.active:hover {
+  color: #516c8d;
+  text-decoration: none;
 }
