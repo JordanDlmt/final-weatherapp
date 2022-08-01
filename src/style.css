@@ -74,3 +74,19 @@ a:hover {
   color: #516c8d;
   text-decoration: none;
 }
+.weather-forcast {
+  margin-top: 20px;
+  text-align: center;
+  color: #516c8d;
+}
+.weather-forcast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forcast-temperature-min {
+  opacity: 0.5;
+}
+.weather-forcast-temperatures {
+  font-size: 16px;
+  color: #516c8d;
+}
