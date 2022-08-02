@@ -64,24 +64,24 @@ a:hover {
   top: -30px;
 }
 #currentTemp {
-  color: #304d4e;
+  color: #3e4d34;
   font-size: 60px;
   font-weight: 600;
   position: relative;
   top: -18px;
 }
 .active {
-  color: #304d4e;
+  color: #3e4d34;
   cursor: default;
 }
 .active:hover {
-  color: #304d4e;
+  color: #3e4d34;
   text-decoration: none;
 }
 .weather-forcast {
   margin-top: 20px;
   text-align: center;
-  color: #304d4e;
+  color: #3e4d34;
 }
 .weather-forcast-date {
   font-size: 16px;
@@ -92,5 +92,5 @@ a:hover {
 }
 .weather-forcast-temperatures {
   font-size: 16px;
-  color: #304d4e;
+  color: #3e4d34;
 }
